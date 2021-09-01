@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.b-1 {
+  /* margin: 40px 0 0 10px; */
+  padding: 0;
+  background-color: yellow;
+
+  /* border: solid 8px; */
+}
+
+.b-2{
+  width: 600px;
+  height: 600px;
+  background-color: violet;
+  align-items: center;
+}
+.inner1
+{
+  width: 500px;
+  align-items: center;
+  height: 500px;
+  background-color: blue;
+  margin-top: 50px;
+  margin: 50px 50px 50px 50px;
+}
+.inner2{
+  width: 400px;
+  height: 400px;
+  align-items: center;
+  background-color: green;
+  margin-top: 50px;
+  margin: 50px 50px 50px 50px;
+}
+.inner3{
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  background-color: yellow;
+  margin: 50px 50px 50px 50px;
+  margin-top: 50px;
+}
+
+/* ===========================================/* POSITIONING - Relative ============================================ */
+
+/* .red{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  display: inline-block;
+  position: relative;
+  /* left: 200px; */
+/* }
+.yellow{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  display: inline-block;
+  position: relative;
+  right: 200px;
+}
+.blue{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  display: inline-block;
+  /* position: relative;
+} */
+
+
+/* ===========================================/* POSITIONING - Absolute ============================================ */
+
+.container{
+  background-color: violet;
+  height: 600px;
+  width: 600px;
+
+}
+.red
+{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+
+  left: 400px;
+  /* top: 400px; */
+}
+
+.blue
+{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: absolute;
+  left: 200px;
+  top: 0;
+
+}
+.yellow
+{
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  position: fixed;
+  top: 0;
+}
+/* ========================================== ============================================ */
